@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="060303df-be5b-448a-abc5-9b6e46d92c71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/appium_for_software_controll.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MQTT Server -- Screen Share.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MQTT Server -- Screen Share.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="060303df-be5b-448a-abc5-9b6e46d92c71" name="Changes" comment="feat: appium server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appium_for_software_controll.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +35,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.received_data">
-    <configuration name="appium_for_software_controll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="appium_windows_software" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MQTT Server -- Screen Share" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,7 +47,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Pritam Guha\Desktop\MQTT Server\appium_for_software_controll.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Pritam Guha\Desktop\MQTT Server\appium_windows_software.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="selenium" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MQTT Server -- Screen Share" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,7 +152,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Pritam Guha\Desktop\MQTT Server\selenium.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Pritam Guha\Desktop\MQTT Server\test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,9 +163,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.selenium" />
-        <item itemvalue="Python.appium_for_software_controll" />
-        <item itemvalue="Python.selenium" />
+        <item itemvalue="Python.appium_windows_software" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.appium_windows_software" />
         <item itemvalue="Python.screen_share" />
         <item itemvalue="Python.received_data (1)" />
       </list>
@@ -184,6 +180,14 @@
       <option name="presentableId" value="Default" />
       <updated>1677836012669</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: appium server">
+      <created>1683713688240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683713688240</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,5 +200,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: appium server" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: appium server" />
   </component>
 </project>
