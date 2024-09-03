@@ -1,10 +1,8 @@
 import paho.mqtt.client as mqtt
 import queue
+from config import Server
 
 mqtt_data = queue.Queue()
-
-PUB_TOP = '/home/device'
-SUB_TOP = '/office/device'
 
 
 def on_connect(client, userdata, flag, rc):
@@ -26,8 +24,8 @@ def main():
     mqtt_client = mqtt.Client("receive_data123", clean_session=True)
     mqtt_client.on_connect = on_connect
     mqtt_client.on_message = on_message
-    mqtt_client.connect(host='localhost', port=1883)
-    mqtt_client.subscribe(SUB_TOP)
+    mqtt_client.connect(host=Server.HOSTNAME, port=Server.PORT)
+    mqtt_client.subscribe(Server.PUBLISH_TOPIC)
     mqtt_client.loop_start()
 
     while True:
