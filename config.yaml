@@ -1,5 +1,7 @@
 server:
+  home_pub_topic: /home/device
+  home_sub_topic: /office/device
   hostname: localhost
+  office_pub_topic: /office/device
+  office_sub_topic: /home/device
   port: 1883
-  publish_topic: /office/device
-  subscribe_topic: /home/device

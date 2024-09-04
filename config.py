@@ -11,8 +11,10 @@ if not YAML_FILE.exists():
         'server': {
             'hostname': 'localhost',
             'port': 1883,
-            'subscribe_topic': '/home/device',
-            'publish_topic': '/office/device'
+            'office_sub_topic': '/home/device',
+            'office_pub_topic': '/office/device',
+            'home_sub_topic': '/office/device',
+            'home_pub_topic': '/home/device'
         }
     }
     with open(YAML_FILE, 'w') as f:
@@ -25,5 +27,7 @@ else:
 class Server:
     HOSTNAME = _config['server']['hostname']
     PORT = _config['server']['port']
-    SUBSCRIBE_TOPIC = _config['server']['subscribe_topic']
-    PUBLISH_TOPIC = _config['server']['publish_topic']
+    OFFICE_SUB_TOPIC = _config['server']['office_sub_topic']
+    OFFICE_PUB_TOPIC = _config['server']['office_pub_topic']
+    HOME_SUB_TOPIC = _config['server']['home_sub_topic']
+    HOME_PUB_TOPIC = _config['server']['home_pub_topic']
